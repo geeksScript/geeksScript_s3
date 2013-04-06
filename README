@@ -1,0 +1,16 @@
+#**************************************
+# This Python Script accomplishes the following task:
+#------------------------------------
+# 1. This script takes a csv file as input file which has following pattern: ip,hostname
+# 2. Script then tries to make a connection with port 22,25,80,110,443,8080,8008 (one by one).
+# 3. Responses (Banner Response) to store in a text file or display on screen, in following pattern: ip, hostname, port, banner_response.
+# 4. Banner could be ssh banner or smtp banner or http head response.
+# 5. Input is csv and output should be in csv comaptible format which can either be stored in a text file or prefered to be displayed on screen.
+# 6. The script has a port array at top where custom port numbers can be defined.
+#------------------------------------
+# This archive contains: sample input/output files as infile/ofile and script.
+# Simply run this script (script.py) and Enjoy!.
+# Tested on Ubuntu, Fedora, CentOs, Mac with Python version 2.7.3.
+# Created by geeksScript | Sanchit (http://geeksScript.com), Dated: 04-04-2013.
+#**************************************
+
